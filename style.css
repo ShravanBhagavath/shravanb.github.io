@@ -314,7 +314,7 @@ body {
    width: 2px;
    height: 100%;
    background: #CCD1D9;
-   z-index: 1
+   z-index: 1;
 }
 
 .timeline-block {
@@ -338,7 +338,7 @@ body {
 
 .timeline-block-left {
    float: left;
-   direction: rtl
+   direction: rtl;
 }
 
 .marker {
@@ -348,7 +348,7 @@ body {
    border: 2px solid #F5F7FA;
    background: #1c5c64;
    margin-top: 10px;
-   z-index: 9999
+   z-index: 9999;
 }
 
 .timeline-content {
@@ -361,7 +361,7 @@ body {
    margin-top: 5px;
    margin-bottom: 5px;
    font-size: 25px;
-   font-weight: 500
+   font-weight: 500;
 }
 
 .timeline-content span {
@@ -414,8 +414,8 @@ body {
 
 .services-col {
     box-shadow: 1px 2px 11px -1px #e7dede;
-    min-height: 484px;
-    border-radius: 16px;
+    /* min-height: 484px; */
+    /* border-radius: 16px; */
 }
 
 .services-col:hover {
@@ -427,6 +427,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 70px;
 }
 
 .services-heading {
@@ -445,7 +446,7 @@ body {
 
 .services-col:hover img {
   transition: 0.9s;
-  transform: rotateY(360deg);
+  /* transform: rotateY(360deg); */
 }
 
 /* PROJECTS CSS */
