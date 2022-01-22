@@ -1,11 +1,13 @@
 /* COMMON CSS */
 
 html {
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
+  overflow: auto;
 }
 
 body {
   font-family: Poppins, sans-serif !important;
+  overflow-x: hidden;
 }
 
 
@@ -164,7 +166,7 @@ body {
   color: #333 !important;
 }
 
-.navbar-nav {
+#contactus .navbar-nav {
   flex-direction: row !important;
 }
 
@@ -598,6 +600,7 @@ body {
   .banner-heading-1 {
     text-align: center;
     font-size: 24px;
+    padding-top: 0px;
   }
 
   .banner-heading-2 {
