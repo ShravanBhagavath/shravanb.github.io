@@ -8,6 +8,7 @@ body {
   font-family: Poppins, sans-serif !important;
 }
 
+
 .pad-10 {
   padding:10px;
 }
@@ -22,6 +23,10 @@ body {
 
 .pad-40 {
   padding:40px;
+}
+
+.pad-top-6 {
+  padding-top:6px;
 }
 
 .pad-top-10 {
@@ -100,9 +105,27 @@ body {
   padding-bottom: 80px;
 }
 
+.margin-bottom-0 {
+  margin-bottom: 0px;
+}
+
 .text-center {
   text-align: center;
 }
+
+.fa-instagram:hover {
+  background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+
+
+
 
 /* NAVBAR CSS */
 
@@ -120,7 +143,17 @@ body {
 }
 
 .navbar-light .navbar-brand {
-  color: rgb(181 144 144 / 90%) !important;
+  /* color: rgb(181 144 144 / 90%) !important; */
+  /* background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
 }
 
 .navbar-pad {
@@ -130,6 +163,11 @@ body {
 .nav-link:hover {
   color: #333 !important;
 }
+
+.navbar-nav {
+  flex-direction: row !important;
+}
+
 /* HEADER CSS */
 
 .header-container {
@@ -190,26 +228,6 @@ body {
   text-decoration: none;
   background-color: #242538;
 }
-
-
-/* .know-more-button {
-  color:#fff;
-  text-decoration: none;
-  padding-right: 8px;
-  padding: 14px;
-  border-radius: 50px;
-  border: 1px solid #fff;
-} */
-
-/* .know-more-button:hover {
-  color:#f4f4f4;
-  text-decoration: none;
-  border: 2px solid #fff;
-}
-
-.know-more-button .fas {
-  padding-left: 8px;
-} */
 
 .chevron {
   position: absolute;
@@ -516,6 +534,21 @@ body {
   color:#fff;
   text-align: center;
   padding-bottom:30px;
+}
+
+/* FOOTER */
+
+.footer-container {
+  background: #fff;
+}
+
+.footer-heading {
+  color: #000;
+  font-weight: bold;
+}
+
+.footer-nav {
+  padding-right: 20px;
 }
 
 /* SCROLL UP CSS */
