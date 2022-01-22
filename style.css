@@ -143,10 +143,6 @@ body {
 }
 
 .navbar-light .navbar-brand {
-  /* color: rgb(181 144 144 / 90%) !important; */
-  /* background: -webkit-linear-gradient(#eee, #333);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
     background-color: #f3ec78;
     background-image: linear-gradient(45deg, #f3ec78, #af4261);
     background-size: 100%;
@@ -154,6 +150,10 @@ body {
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+}
+
+.navbar-brand {
+  font-size: 1.75rem !important;
 }
 
 .navbar-pad {
@@ -450,23 +450,6 @@ body {
    padding-top:20px;
 }
 
-@media screen and (max-width: 768px) {
-   .timeline-container:before {
-      left: 8px;
-      width: 2px;
-   }
-   .timeline-block {
-      width: 100%;
-      margin-bottom: 30px;
-   }
-   .timeline-block-right {
-      float: none;
-   }
-   .timeline-block-left {
-      float: none;
-      direction: ltr;
-   }
-}
 
 /* SERVICES CSS */
 
@@ -575,15 +558,6 @@ body {
 
 /* MEDIA QUERIES */
 
-@media only screen and (max-width: 998px) {
-
-    .header-container {
-      margin-top: 0% !important;
-      padding-top:120px !important;
-    }
-
-}
-
 @media only screen and (max-width: 767px) {
 
   .navbar-collapse {
@@ -654,5 +628,28 @@ body {
     padding-right: 15px !important;
   }
 
+  .timeline-container:before {
+     left: 8px;
+     width: 2px;
+  }
+  .timeline-block {
+     width: 100%;
+     margin-bottom: 30px;
+  }
+  .timeline-block-right {
+     float: none;
+  }
+  .timeline-block-left {
+     float: none;
+     direction: ltr;
+  }
+}
+
+@media only screen and (max-width: 998px) {
+
+    .header-container {
+      margin-top: 0% !important;
+      padding-top:120px !important;
+    }
 
 }
