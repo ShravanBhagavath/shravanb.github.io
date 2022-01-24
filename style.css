@@ -195,24 +195,21 @@ body {
 }
 
 .banner-heading-1 {
-  color: #fff;
+  color: #7c7c7c;
   padding-top: 140px;
   font-size: 66px;
 }
 
 .banner-heading-2 {
-  color: #fff;
+  color: #7c7c7c;
   padding-top: 20px;
   padding-bottom:60px;
   font-size: 50px;
 }
 
 .web-span {
-  background: #fff;
-  padding:6px;
-  color: #333;
+  color: #fff;
   font-weight: bold;
-  font-style: italic;;
 }
 
 .cv-download {
@@ -513,13 +510,27 @@ body {
 /* PROJECTS CSS */
 
 .projects-container {
-  background: #000;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(11,13,34,0.927608543417367) 100%, rgba(0,212,255,1) 100%);
 }
 
-.projects-title h2 {
+.projects-heading h2 {
   color:#fff;
   text-align: center;
   padding-bottom:30px;
+}
+
+.projects-col {
+  border:1px solid #fafafa;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.projects-title {
+  color: #fff;
+
 }
 
 /* FOOTER */
