@@ -526,9 +526,9 @@ body {
   background: #000;
 }
 
-.proj-col:hover .arrow-right{
+/* .proj-col:hover .arrow-right{
   padding-left: 6px;
-}
+} */
 
 .proj-col:hover {
   box-shadow: 1px 1px 6px 0px #fafafa;
